@@ -4,137 +4,7 @@
 
 // ydnar: removed a ton of redundant "alphaGen vertex" directives
 
-allied_covertops
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/covertops.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-allied_eng
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/eng.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-allied_lt
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/lt.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-allied_medic
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/medic.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-allied_soldier
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/soldier.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-alliedhelmet
-{
-	nomipmap
-	nopicmip
-	{
-		clampmap gfx/2d/lives_allies.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen vertex
-	}
-}
-
-axis_covertops
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/covertops_ger.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-axis_eng
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/eng_ger.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-axis_lt
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/LT_ger.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-axis_medic
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/medic_ger.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-axis_soldier
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/portraits/soldier_ger.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
-axishelmet
-{
-	nomipmap
-	nopicmip
-	{
-		clampmap gfx/2d/lives_axis.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen vertex
-	}
-}
-
-blackgrad
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/BLACKGRAD.tga
-		blendfunc blend
-	}
-}
+//removed leftovers from rtcw 23.02.2017 -Thunder
 
 blacksmokeanimb1
 {
@@ -1187,16 +1057,6 @@ bullet3
 	}
 }
 
-console2_old
-{
-	nocompress
-	nopicmip
-	{
-		map ui/assets/wolficonback4.tga
-		blendfunc blend
-	}
-}
-
 console-16bit
 {
 	nopicmip
@@ -1231,26 +1091,6 @@ console-16bit
 	}
 }
 
-console-16bit_old
-{
-	nocompress
-	nopicmip
-	{
-		map ui/assets/SMOKE-16bit.tga
-		blendfunc GL_ONE GL_ZERO
-		rgbGen const ( 0.3 0.3 0.3 )
-		tcmod scale 1.5 .75
-		tcmod scroll 0.025 .05
-	}
-	{
-		map ui/assets/SMOKE-16bit.tga
-		blendfunc GL_ONE GL_ONE
-		rgbGen const ( 0.2 0.2 0.2 )
-		tcmod scale .5 .25
-		tcmod scroll 0 .05
-	}
-}
-
 console2-16bit
 {
 	nopicmip
@@ -1258,16 +1098,6 @@ console2-16bit
 		map ui/assets/et_logo.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		alphaGen const 0.1
-	}
-}
-
-console2-16bit_old
-{
-	nocompress
-	nopicmip
-	{
-		map ui/assets/wolficonback4.tga
-		blendfunc blend
 	}
 }
 
@@ -1623,46 +1453,6 @@ explode123
 	}
 }
 
-filmnoise
-{
-	nocompress
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/noise1.tga
-		blendfunc gl_one gl_one
-		rgbgen wave inversesawtooth .05 .05 0 200
-		tcmod scale 2 2
-		tcmod scroll 3 3
-	}
-	{
-		map ui/assets/noise2.tga
-		blendfunc gl_dst_color gl_one
-		rgbgen wave sawtooth .05 .05 0.75 200
-		tcmod scale 2 2
-		tcmod scroll -3 -3
-	}
-}
-
-flame
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/flame.tga
-		blendfunc blend
-		tcmod scale .75 .75
-		tcmod scroll 0 .1
-		tcmod turb .5 .1 0 .15
-	}
-	{
-		map ui/assets/flame.tga
-		blendfunc blend
-		tcmod scale .5 .5
-		tcmod scroll 0 .05
-	}
-}
-
 flamedlightshader
 {
 	{
@@ -1679,6 +1469,7 @@ flamedlightshader
 	}
 }
 
+//these should maybe be moved over to models_multiplayer shader?? -Thunder
 flamethrowerbluestream
 {
 	cull none
@@ -2265,16 +2056,6 @@ fleshimpactsmokepuff
 	}
 }
 
-gold_line
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/gold_line.tga
-		blendfunc blend
-	}
-}
-
 grenadeexplosion
 {
 	cull disable
@@ -2290,7 +2071,8 @@ grenadeexplosion
 	}
 }
 
-jpwhud1
+//whole lot of crap here with old stuff from wolfenstein3d it seems, the textures are still left in gfx?!?!
+/*jpwhud1
 {
 	cull none
 	nofog
@@ -2373,6 +2155,7 @@ jpwtest2
 		rgbGen vertex
 	}
 }
+*/
 
 lagometer
 {
@@ -2662,7 +2445,8 @@ shotgunsmokepuff
 	}
 }
 
-skeletonskin
+//Leftover? maybe useful for later -Thunder
+/*skeletonskin
 {
 	cull disable
 	surfaceparm alphashadow
@@ -2673,7 +2457,7 @@ skeletonskin
 		alphaGen entity
 	}
 }
-
+*/
 sliderbutt_1
 {
 	nomipmaps
@@ -2883,8 +2667,8 @@ sunflare1
 		rgbGen vertex
 	}
 }
-
-teslaaltdamageeffect
+//aint no tesla in ET?
+/*teslaaltdamageeffect
 {
 	{
 		map $whiteimage
@@ -2921,7 +2705,7 @@ tesladamageeffect
 		rgbGen entity
 	}
 }
-
+*/
 twiltb21
 {
 	cull none
@@ -3746,6 +3530,7 @@ viewflashfire16
 	}
 }
 
+/*
 viewteslaaltdamageeffect
 {
 	cull disable
@@ -3789,6 +3574,7 @@ viewtesladamageeffect
 		rgbGen entity
 	}
 }
+*/
 
 wake
 {
@@ -3920,15 +3706,7 @@ white
 	}
 }
 
-wolfflamelogo
-{
-	nomipmaps
-	nopicmip
-	{
-		map ui/assets/WOLFFLAMELOGO.tga
-		blendfunc blend
-	}
-}
+
 
 // REMOVED!!! If not in models/multiplayer shader we will add it - Thunder
 /*models/multiplayer/m1_garand/m1garandscope
