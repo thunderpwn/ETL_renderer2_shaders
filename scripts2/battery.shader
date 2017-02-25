@@ -5,6 +5,10 @@ textures/liquids_sd/seawall_specular
 	diffusemap textures/liquids_sd/seawall_specular
 	bumpmap textures/liquids_sd/seawall_specular_n
 	specularmap textures/liquids_sd/seawall_specular_s
+	refractionIndex 1.3 // water
+                fresnelPower 2.0
+                fresnelScale 0.85       // + sinTable[time * 0.4] * 0.25
+                fresnelBias  0.05
 }
 
 textures/liquids_sd/sea_bright_na
@@ -13,6 +17,10 @@ textures/liquids_sd/sea_bright_na
 	diffusemap textures/liquids_sd/sea_bright_na
 	bumpmap textures/liquids_sd/sea_bright_na_n
 	specularmap textures/liquids_sd/sea_bright_na_s
+	refractionIndex 1.3 // water
+                fresnelPower 2.0
+                fresnelScale 0.85       // + sinTable[time * 0.4] * 0.25
+                fresnelBias  0.05
 }
 
 textures/liquids_sd/seawall_foam
@@ -21,6 +29,10 @@ textures/liquids_sd/seawall_foam
 	diffusemap textures/liquids_sd/seawall_foam
 	bumpmap textures/liquids_sd/seawall_foam_n
 	specularmap textures/liquids_sd/seawall_foam
+	refractionIndex 1.3 // water
+                fresnelPower 2.0
+                fresnelScale 0.85       // + sinTable[time * 0.4] * 0.25
+                fresnelBias  0.05
 }
 
 // ocean fog water
@@ -31,6 +43,10 @@ textures/battery/fog_water
   	surfaceparm nonsolid
   	surfaceparm trans
   	surfaceparm water
+	refractionIndex 1.3 // water
+                fresnelPower 2.0
+                fresnelScale 0.85       // + sinTable[time * 0.4] * 0.25
+                fresnelBias  0.05
 }
 
 // abstract shader for subclassed shaders
@@ -40,7 +56,7 @@ textures/battery/ocean_base
 	diffusemap textures/liquids_sd/sea_bright_na
 	bumpmap textures/liquids_sd/sea_bright_na_n
 	specularmap textures/liquids_sd/sea_bright_na_s
-	qer_trans 0.80
+	qer_trans 0.75
 	//q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_globalTexture
 	surfaceparm nonsolid
@@ -56,7 +72,7 @@ textures/battery/ocean_terrain
 {
 	qer_editorimage textures/common/terrain_nonsolid
 	q3map_terrain
-	qer_trans .85
+	qer_trans .5
 	surfaceparm nodraw
   	surfaceparm nonsolid
   	surfaceparm trans
@@ -72,10 +88,9 @@ textures/battery/ocean_0
 	deformVertexes wave 1317 sin 0 2.5 0 0.15
  	deformVertexes wave 317 sin 0 1.5 0 0.30
 	
-	
 	{
 		map textures/liquids_sd/seawall_specular
-		blend add
+		blendFunc GL_ONE GL_ONE
 		rgbGen vertex
 		tcGen environment
 		depthWrite
@@ -83,7 +98,7 @@ textures/battery/ocean_0
 		
 	{ 
 		map textures/liquids_sd/sea_bright_na
-		blend blend
+		blendFunc blend
 		rgbGen identity
 		alphaGen const 0.8
 		tcmod scroll 0.005 0.03
@@ -97,21 +112,18 @@ textures/battery/ocean_1
 	cull none
 	deformVertexes wave 1317 sin 0 2.5 0 0.15
  	deformVertexes wave 317 sin 0 1.5 0 0.30
-	diffusemap textures/liquids_sd/sea_bright_na
-	bumpmap textures/liquids_sd/sea_bright_na_n
-	specularmap textures/liquids_sd/sea_bright_na_s
 	
 	{
 		map textures/liquids_sd/seawall_specular
-		blendFunc add
+		blendFunc GL_ONE GL_ONE
 		rgbGen vertex
 		tcGen environment
-		maskDepth
+		depthWrite
 	}
 	
 	{ 
 		map textures/liquids_sd/sea_bright_na
-		blend blend
+		blendFunc blend
 		rgbGen identity
 		alphaGen const .8
 		tcmod scroll 0.005 0.03
@@ -141,10 +153,7 @@ textures/battery/ocean_0to1
 	q3map_baseshader textures/battery/ocean_base
 	cull none
 	deformVertexes wave 1317 sin 0 2.5 0 0.15
- 	deformVertexes wave 317 sin 0 1.5 0 0.30 
-    diffusemap textures/liquids_sd/sea_bright_na
-	bumpmap textures/liquids_sd/sea_bright_na_n
-	specularmap textures/liquids_sd/sea_bright_na_s	
+ 	deformVertexes wave 317 sin 0 1.5 0 0.30 	
 	
 	{
 		map textures/liquids_sd/seawall_specular
@@ -179,11 +188,10 @@ textures/battery/ocean_0to1
 	}
 	
 }
-
 textures/battery/rock_graynoise
 {
     q3map_nonplanar
-    q3map_shadeangle 60
+    q3map_shadeangle 120
     //q3map_tcmodscale 1.5 1.5
     qer_editorimage textures/temperate_sd/rock_grayvar
 	diffusemap textures/temperate_sd/rock_grayvar
@@ -195,7 +203,7 @@ textures/battery/rock_graynoise
     }
     {
         map textures/temperate_sd/rock_grayvar
-        blendFunc filter
+        blend blend
     }
    
 }
