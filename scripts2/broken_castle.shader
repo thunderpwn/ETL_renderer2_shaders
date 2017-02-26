@@ -4,8 +4,8 @@ textures/broken_castle/wall_c03d
 {
     qer_editorimage textures/broken_castle/wall_c03d
 	diffusemap textures/broken_castle/wall_c03d
-	specularmap textures/broken_castle/wall_c03d_s
 	bumpmap textures/broken_castle/wall_c03d_n
+	specularmap textures/broken_castle/wall_c03d_s
 }
 
 textures/broken_castle/wall_c04
