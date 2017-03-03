@@ -4211,6 +4211,43 @@ models/mapobjects/xlab_props/light_1_oasis
 }
 
 
+//Needs to be here for old compat...
 
+models/mapobjects/seawall_rocks/rocks
+{
+	qer_editorimage textures/temperate_sd/rock_grayvar.tga
+	q3map_forcemeta
+	q3map_lightmapSampleOffset 8.0
+	q3map_nonplanar
+	q3map_clipModel
+	implicitMap textures/temperate_sd/rock_grayvar.tga
+	surfaceparm pointlight
+	q3map_shadeangle 180
+ 
+}
+
+models/mapobjects/siwa_tunnels_sd/siwa_tunnel
+{
+	qer_editorimage textures/desert_sd/rock_edged_smooth.tga
+	q3map_clipModel
+	q3map_forcemeta
+	q3map_lightmapSampleOffset 8.0
+	q3map_nonplanar
+	q3map_normalimage models/mapobjects/siwa_tunnels_sd/siwa_nm.tga
+	q3map_shadeangle 180
+	surfaceparm pointlight
+	implicitMap textures/desert_sd/rock_edged_smooth.tga
+}
+
+models/mapobjects/siwa_tunnels_sd/siwa_tunneliaclip
+{
+	qer_editorimage textures/common/clipmonster.tga
+	q3map_forcemeta
+    	q3map_clipModel
+    	surfaceparm nodraw
+    	surfaceparm nomarks
+    	surfaceparm nonsolid
+    	surfaceparm monsterclip
+}
 
 
