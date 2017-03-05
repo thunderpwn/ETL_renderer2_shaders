@@ -144,7 +144,7 @@ textures/chat/picture_05
     qer_editorimage textures/chat/picture_05
 	diffusemap textures/chat/picture_05
 	bumpmap textures/chat/picture_05_n
-	speculrmap textures/chat/picture_05_s
+	specularmap textures/chat/picture_05_s
 	surfaceparm woodsteps
 	implicitMap -
 }
