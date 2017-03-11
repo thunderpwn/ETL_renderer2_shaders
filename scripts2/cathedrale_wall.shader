@@ -12,6 +12,6 @@ textures/cathedrale_wall/cathedrale_c13
 {
     qer_editorimage textures/cathedrale_wall/cathedrale_c13
 	diffusemap textures/cathedrale_wall/cathedrale_c13
-	bumpmaptextures/cathedrale_wall/cathedrale_c13_n
+	bumpmap textures/cathedrale_wall/cathedrale_c13_n
 	specularmap textures/cathedrale_wall/cathedrale_c13_s
 }
