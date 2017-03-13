@@ -180,11 +180,14 @@ textures/snow/s_door_c10b_s
 textures/snow/s_metal_m04dg2
 {
     qer_editorimage s_metal_m04dg2
+	
 	diffusemap s_metal_m04dg2
+	
 	specularmap s_metal_m04dg2_s
+	
 	bumpmap s_metal_m04dg2_n
-	surfaceparm metalsteps
-	implicitmap -
+	
+
 }
 
 textures/snow/s_roof_c04dm
