@@ -8,6 +8,6 @@ textures/town_roof/roof_c05
     diffusemap textures/town_roof/roof_c05
 	specularmap textures/town_roof/roof_c05_s
 	bumpmap textures/town_roof/roof_c05_n
-	//surfaceparm roofsteps
+	surfaceparm roofsteps
 	implicitMap -
 }
