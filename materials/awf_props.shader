@@ -10,6 +10,11 @@ textures/awf_props/tool_m01
 	specularMap textures/awf_props/tool_m01_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/awf_props/tool_m01
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/awf_props/tool_m06
@@ -20,6 +25,11 @@ textures/awf_props/tool_m06
 	specularMap textures/awf_props/tool_m06_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/awf_props/tool_m06
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/awf_props/tool_m07
@@ -36,4 +46,9 @@ textures/awf_props/tool_m07
 	surfaceparm pointlight
 	surfaceparm trans
 	implicitMask -
+	{
+	  map textures/awf_props/tool_m07
+	  VertexColor
+	blend blend
+	}
 }
