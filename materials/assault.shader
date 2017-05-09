@@ -10,6 +10,11 @@ textures/assault/atool_m02
 	specularMap textures/assault/atool_m02_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/atool_m02
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/atruss_m06a
@@ -26,6 +31,11 @@ textures/assault/atruss_m06a
 	surfaceparm pointlight
 	surfaceparm trans
 	implicitMask -
+	{
+	  map textures/assault/atruss_m06a
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_cl01
@@ -36,6 +46,11 @@ textures/assault/machine_cl01
 	specularMap textures/assault/machine_cl01_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_cl01
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c01b
@@ -46,6 +61,11 @@ textures/assault/machine_c01b
 	specularMap textures/assault/machine_c01b_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c01b
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c03a
@@ -56,6 +76,11 @@ textures/assault/machine_c03a
 	specularMap textures/assault/machine_c03a_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c03a
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c03e
@@ -66,6 +91,11 @@ textures/assault/machine_c03e
 	specularMap textures/assault/machine_c03e_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c03e
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c04b
@@ -76,6 +106,11 @@ textures/assault/machine_c04b
 	specularMap textures/assault/machine_c04b_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c04b
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c05b
@@ -86,6 +121,11 @@ textures/assault/machine_c05b
 	specularMap textures/assault/machine_c05b_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c05b
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c06b
@@ -96,6 +136,11 @@ textures/assault/machine_c06b
 	specularMap textures/assault/machine_c06b_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c06b
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/machine_c07
@@ -106,6 +151,11 @@ textures/assault/machine_c07
 	specularMap textures/assault/machine_c07_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/machine_c07
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/metal_c06
@@ -116,6 +166,11 @@ textures/assault/metal_c06
 	specularMap textures/assault/metal_c06_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/metal_c06
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/metal_c07a
@@ -126,6 +181,11 @@ textures/assault/metal_c07a
 	specularMap textures/assault/metal_c07a_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/metal_c07a
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/metal_c07ans
@@ -137,6 +197,11 @@ textures/assault/metal_c07ans
 	surfaceparm nonsolid
 	surfaceparm trans
 	implicitMap textures/assault/metal_c07a
+	{
+	  map textures/assault/metal_c07ans
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault/trim_c01
@@ -147,4 +212,9 @@ textures/assault/trim_c01
 	specularMap textures/assault/trim_c01_s
 	surfaceparm metalsteps
 	implicitMap -
+	{
+	  map textures/assault/trim_c01
+	  VertexColor
+	blend blend
+	}
 }

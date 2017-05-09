@@ -12,6 +12,11 @@ textures/assault_rock/ground_c07a
 	specularMap textures/assault_rock/ground_c07a_s
 	surfaceparm gravelsteps
 	implicitMap -
+	{
+	  map textures/assault_rock/ground_c07a
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/assault_rock/ground_c09a
@@ -22,6 +27,11 @@ textures/assault_rock/ground_c09a
 	specularMap textures/assault_rock/ground_c09a_s
 	surfaceparm grasssteps
 	implicitMap -
+	{
+	  map textures/assault_rock/ground_c09a
+	  VertexColor
+	blend blend
+	}
 }
 // dont know what kind of textures these are yet....
 textures/assault_rock/haze_vil_night
@@ -69,4 +79,9 @@ textures/assault_rock/concrete_m02
 	bumpMap textures/assault_rock/concrete_m02_n
 	specularMap textures/assault_rock/concrete_m02_s
 	implicitMap -
+	{
+	  map textures/assault_rock/concrete_m02
+	  VertexColor
+	blend blend
+	}
 }
