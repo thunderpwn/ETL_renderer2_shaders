@@ -6,6 +6,11 @@ textures/cathedrale_wall/cathedrale_c09
 	diffusemap textures/cathedrale_wall/cathedrale_c09
 	bumpmap textures/cathedrale_wall/cathedrale_c09_n
 	specularmap textures/cathedrale_wall/cathedrale_c09_s
+	{
+	  map textures/cathedrale_wall/cathedrale_c09
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/cathedrale_wall/cathedrale_c13
@@ -14,4 +19,9 @@ textures/cathedrale_wall/cathedrale_c13
 	diffusemap textures/cathedrale_wall/cathedrale_c13
 	bumpmap textures/cathedrale_wall/cathedrale_c13_n
 	specularmap textures/cathedrale_wall/cathedrale_c13_s
+	{
+	  map textures/cathedrale_wall/cathedrale_c13
+	  VertexColor
+	blend blend
+	}
 }
