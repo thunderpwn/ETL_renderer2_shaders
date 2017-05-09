@@ -6,6 +6,11 @@ textures/broken_castle/wall_c03d
 	diffusemap textures/broken_castle/wall_c03d
 	bumpmap textures/broken_castle/wall_c03d_n
 	specularmap textures/broken_castle/wall_c03d_s
+	{
+	  map textures/broken_castle/wall_c03d
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/broken_castle/wall_c04
@@ -14,6 +19,11 @@ textures/broken_castle/wall_c04
 	diffusemap textures/broken_castle/wall_c04
 	bumpmap textures/broken_castle/wall_c04_n
 	specularmap textures/broken_castle/wall_c04_s
+	{
+	  map textures/broken_castle/wall_c04
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/broken_castle/wall_c05
@@ -22,4 +32,9 @@ textures/broken_castle/wall_c05
 	diffusemap textures/broken_castle/wall_c05
 	bumpmap textures/broken_castle/wall_c05_n
 	specularmap textures/broken_castle/wall_c05_s
+	{
+	  map textures/broken_castle/wall_c05
+	  VertexColor
+	blend blend
+	}
 }
