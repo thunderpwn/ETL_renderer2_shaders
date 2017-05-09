@@ -2072,7 +2072,7 @@ grenadeexplosion
 }
 
 //whole lot of crap here with old stuff from wolfenstein3d it seems, the textures are still left in gfx?!?!
-/*jpwhud1
+jpwhud1
 {
 	cull none
 	nofog
@@ -2155,7 +2155,7 @@ jpwtest2
 		rgbGen vertex
 	}
 }
-*/
+
 
 lagometer
 {
@@ -2446,7 +2446,7 @@ shotgunsmokepuff
 }
 
 //Leftover? maybe useful for later -Thunder
-/*skeletonskin
+skeletonskin
 {
 	cull disable
 	surfaceparm alphashadow
@@ -2457,7 +2457,7 @@ shotgunsmokepuff
 		alphaGen entity
 	}
 }
-*/
+
 sliderbutt_1
 {
 	nomipmaps
@@ -2668,7 +2668,7 @@ sunflare1
 	}
 }
 //aint no tesla in ET?
-/*teslaaltdamageeffect
+teslaaltdamageeffect
 {
 	{
 		map $whiteimage
@@ -2705,7 +2705,7 @@ tesladamageeffect
 		rgbGen entity
 	}
 }
-*/
+
 twiltb21
 {
 	cull none
@@ -3530,7 +3530,7 @@ viewflashfire16
 	}
 }
 
-/*
+
 viewteslaaltdamageeffect
 {
 	cull disable
@@ -3574,7 +3574,7 @@ viewtesladamageeffect
 		rgbGen entity
 	}
 }
-*/
+
 
 wake
 {
@@ -3709,7 +3709,7 @@ white
 
 
 // REMOVED!!! If not in models/multiplayer shader we will add it - Thunder
-/*models/multiplayer/m1_garand/m1garandscope
+models/multiplayer/m1_garand/m1garandscope
 {
 	{
 		map textures/effects/envmap_slate.tga
@@ -3722,4 +3722,4 @@ white
 		rgbGen lightingdiffuse
 	}
 }
-*/
+

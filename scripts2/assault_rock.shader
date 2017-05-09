@@ -3,7 +3,7 @@
 // 5 total shaders
 
 //NB! only unncomment when textures do exist!
-/*
+
 textures/assault_rock/ground_c07a
 {
     qer_editorimage textures/assault_rock/ground_c07a
@@ -60,7 +60,7 @@ textures/assault_rock/hazz
 		rgbGen identity
 	}
 }
-*/
+
 // ETL's texture
 textures/assault_rock/concrete_m02
 {

@@ -33,7 +33,7 @@ textures/sfx/construction
 
 textures/sfx/fan
 {
-    qer_editorimage
+    qer_editorimage textures/sfx/fan
 	diffusemap textures/sfx/fan
 	bumpmap textures/sfx/fan_n
 	specularmap textures/sfx/fan_s

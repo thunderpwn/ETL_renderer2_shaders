@@ -3,7 +3,7 @@
 // Last edit: 26.02.2017
 //!NOTE! just edit what we have! -Thunder
 //======================================================================
-/*
+
 textures/decals/blood1
 {
 	
@@ -76,7 +76,7 @@ textures/decals/candle1
 	surfaceparm pointlight
 	implicitBlend -
 }
-*/
+
 textures/decals/corrosive_sign
 {
 	qer_editorimage textures/xlab_props/sign_c17
@@ -85,7 +85,7 @@ textures/decals/corrosive_sign
 	surfaceparm pointlight
 	implicitBlend textures/xlab_props/sign_c17
 }
-/*
+
 textures/decals/drain
 {
 	
@@ -93,7 +93,7 @@ textures/decals/drain
 	surfaceparm pointlight
 	implicitBlend -
 }
-*/
+
 textures/decals/hay
 {
 	qer_editorimage textures/props/hay
@@ -227,7 +227,7 @@ textures/decals/light_m32
 		rgbGen identity
 	}
 }
-/*
+
 textures/decals/maps
 {
 	
@@ -235,7 +235,7 @@ textures/decals/maps
 	surfaceparm pointlight
 	implicitBlend -
 }
-*/
+
 textures/decals/oil_slick
 {
     qer_editorimage textures/decals/oil_slick
@@ -256,7 +256,7 @@ textures/decals/oil_slick
 		rgbGen vertex
 	}
 }
-/*
+
 textures/decals/one
 {
 	
@@ -304,7 +304,7 @@ textures/decals/s_donot_enter
 	surfaceparm pointlight
 	implicitBlend textures/decals/S_DNOT_ENTER
 }
-*/
+
 textures/decals/s_ident_required_2r
 {
     qer_editorimage textures/decals/s_ident_required_2r
@@ -315,7 +315,7 @@ textures/decals/s_ident_required_2r
 	surfaceparm pointlight
 	implicitBlend textures/decals/S_IDENT_REQUIRED_2R
 }
-/*
+
 textures/decals/s_ident_required_2w
 {
 	
@@ -381,7 +381,7 @@ textures/decals/three
 	surfaceparm pointlight
 	implicitBlend -
 }
-*/
+
 textures/decals/trim_m01
 {
     qer_editorimage textures/decals/trim_m01
@@ -393,7 +393,7 @@ textures/decals/trim_m01
 	implicitBlend -
 }
 
-/*
+
 textures/decals/two
 {
 	
@@ -401,7 +401,7 @@ textures/decals/two
 	surfaceparm pointlight
 	implicitBlend -
 }
-*/
+
 textures/decals/vent
 {
 	qer_editorimage textures/decals/vent
@@ -424,7 +424,7 @@ textures/decals/vent2
 	implicitBlend textures/miltary_wall/miltary_m04
 }
 
-/*textures/decals/water_stain
+textures/decals/water_stain
 {
 	
 	nofog
@@ -441,4 +441,3 @@ textures/decals/water_stain_100
 	surfaceparm pointlight
 	implicitBlend textures/decals/water_stain
 }
-*/
