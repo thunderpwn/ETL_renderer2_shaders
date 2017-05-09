@@ -103,6 +103,11 @@ textures/decals/hay
 	polygonOffset
 	surfaceparm pointlight
 	implicitBlend -
+	{
+	  map textures/props/hay
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/decals/light_c01_d
@@ -314,6 +319,11 @@ textures/decals/s_ident_required_2r
 	polygonOffset
 	surfaceparm pointlight
 	implicitBlend textures/decals/S_IDENT_REQUIRED_2R
+	{
+	  map textures/decals/s_ident_required_2r
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/decals/s_ident_required_2w
@@ -391,6 +401,11 @@ textures/decals/trim_m01
 	polygonOffset
 	surfaceparm pointlight
 	implicitBlend -
+	{
+	  map textures/decals/trim_m01
+	  VertexColor
+	blend blend
+	}
 }
 
 
@@ -411,6 +426,11 @@ textures/decals/vent
 	polygonOffset
 	surfaceparm pointlight
 	implicitBlend -
+	{
+	  map textures/decals/vent
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/decals/vent2
@@ -422,6 +442,11 @@ textures/decals/vent2
 	polygonOffset
 	surfaceparm pointlight
 	implicitBlend textures/miltary_wall/miltary_m04
+	{
+	  map textures/miltary_wall/miltary_m04
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/decals/water_stain

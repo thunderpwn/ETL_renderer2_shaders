@@ -5,7 +5,11 @@ textures/doors/door_c01b
 	bumpmap textures/doors/door_c01b_n
 	specularmap textures/doors/door_c01b_s
 	surfaceparm woodsteps
-	implicitMap -
+	{
+	  map textures/doors/door_c01b
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/door_c05
@@ -15,7 +19,11 @@ textures/doors/door_c05
 	bumpmap textures/doors/door_c05_n
 	specularmap textures/doors/door_c05_s
 	surfaceparm woodsteps
-	implicitMap -
+	{
+	  map textures/doors/door_c05
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/door_c08
@@ -25,7 +33,11 @@ textures/doors/door_c08
 	bumpmap textures/doors/door_c08_n
 	specularmap textures/doors/door_c08_s
 	surfaceparm woodsteps
-	implicitMap -
+	{
+	  map textures/doors/door_c08
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/door_c13
@@ -35,7 +47,11 @@ textures/doors/door_c13
 	bumpmap textures/doors/door_c13_n
 	specularmap textures/doors/door_c13_s
 	surfaceparm woodsteps
-	implicitMap -
+	{
+	  map textures/doors/door_c13
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/door_m01asml
@@ -45,7 +61,11 @@ textures/doors/door_m01asml
 	bumpmap textures/doors/door_m01asml_n
 	specularmap textures/doors/door_m01asml_s
 	surfaceparm metalsteps
-	implicitMap -
+	{
+	  map textures/doors/door_m01asml
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/door_m01asml_axis
@@ -55,7 +75,11 @@ textures/doors/door_m01asml_axis
 	bumpmap textures/doors/door_m01asml_axis_n
 	specularmap textures/doors/door_m01asml_axis_s
 	surfaceparm metalsteps
-	implicitMap -
+	{
+	  map textures/doors/door_m01asml_axis
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/door_m04
@@ -67,7 +91,11 @@ textures/doors/door_m04
 	cull none
 	surfaceparm metalsteps
 	surfaceparm pointlight
-	implicitMap -
+	{
+	  map textures/doors/door_m04
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/doors/heavy_door_01
@@ -77,5 +105,9 @@ textures/doors/heavy_door_01
 	bumpmap textures/doors/heavy_door_01_n
 	specularmap textures/doors/heavy_door_01_s
 	surfaceparm metalsteps
-	implicitMap -
+		{
+	  map textures/doors/heavy_door_01
+	  VertexColor
+	blend blend
+	}
 }
