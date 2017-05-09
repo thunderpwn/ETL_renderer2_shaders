@@ -1,12 +1,17 @@
 // chat.shader
 textures/chat/bedlinen_c02
 {
-    qer_editorimage textures/chat/bedlinen_c04
-	diffusemap textures/chat/bedlinen_c04
-	bumpmap textures/chat/bedlinen_c04_n
-	specularmap textures/chat/bedlinen_c04_s
+    qer_editorimage textures/chat/bedlinen_c02
+	diffusemap textures/chat/bedlinen_c02
+	bumpmap textures/chat/bedlinen_c02_n
+	specularmap textures/chat/bedlinen_c02_s
     surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/bedlinen_c02
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/bedlinen_c04
@@ -17,6 +22,11 @@ textures/chat/bedlinen_c04
 	specularmap textures/chat/bedlinen_c04_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/bedlinen_c04
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/bedlinenpillow_c02
@@ -27,6 +37,11 @@ textures/chat/bedlinenpillow_c02
 	specularmap textures/chat/bedlinenpillow_c02_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/bedlinenpillow_c02
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/book_c02
@@ -37,6 +52,11 @@ textures/chat/book_c02
 	specularmap textures/chat/book_c02_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat/book_c02
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/book_c03
@@ -47,6 +67,11 @@ textures/chat/book_c03
 	specularmap textures/chat/book_c03_s
    	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat/book_c03
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/book_c05
@@ -57,6 +82,11 @@ textures/chat/book_c05
 	specularmap textures/chat/book_c05_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat/book_c05
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c02
@@ -67,6 +97,11 @@ textures/chat/carpet_c02
 	specularmap textures/chat/carpet_c02_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c02
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c03
@@ -77,6 +112,11 @@ textures/chat/carpet_c03
 	specularmap textures/chat/carpet_c03_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c03
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c08
@@ -87,6 +127,11 @@ textures/chat/carpet_c08
 	specularmap textures/chat/carpet_c08_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c08
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c10
@@ -97,6 +142,11 @@ textures/chat/carpet_c10
 	specularmap textures/chat/carpet_c10_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c10
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c10trim
@@ -107,6 +157,11 @@ textures/chat/carpet_c10trim
 	specularmap textures/chat/carpet_c10trim_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c10trim
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c11
@@ -117,6 +172,11 @@ textures/chat/carpet_c11
 	specularmap textures/chat/carpet_c11_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c11
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/carpet_c14trim
@@ -127,6 +187,11 @@ textures/chat/carpet_c14trim
 	specularmap textures/chat/carpet_c14trim_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chat/carpet_c14trim
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/office_c03
@@ -137,6 +202,11 @@ textures/chat/office_c03
 	specularmap textures/chat/office_c03_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat/office_c03
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/picture_05
@@ -147,6 +217,11 @@ textures/chat/picture_05
 	specularmap textures/chat/picture_05_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat/picture_05
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat/wd_sr_va7
@@ -157,4 +232,9 @@ textures/chat/wd_sr_va7
 	specularmap textures/chat/wd_sr_va7_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat/wd_sr_va7
+	  VertexColor
+	blend blend
+	}
 }
