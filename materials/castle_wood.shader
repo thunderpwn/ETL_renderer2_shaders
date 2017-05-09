@@ -10,6 +10,11 @@ textures/castle_wood/cwood_c10
 	specularmap textures/castle_wood/cwood_c10_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_wood/cwood_c10
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/castle_wood/cwood_c18
@@ -20,6 +25,11 @@ textures/castle_wood/cwood_c18
 	specularmap textures/castle_wood/cwood_c18_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_wood/cwood_c18
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/castle_wood/cwood_mo2s1
@@ -30,6 +40,11 @@ textures/castle_wood/cwood_mo2s1
 	specularmap textures/castle_wood/cwood_mo2s1_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_wood/cwood_mo2s1
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/castle_wood/cwood_mo5c
@@ -40,6 +55,11 @@ textures/castle_wood/cwood_mo5c
 	specularmap textures/castle_wood/cwood_mo5c_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_wood/cwood_mo5c
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/castle_wood/cwood_mo5cb
@@ -50,6 +70,11 @@ textures/castle_wood/cwood_mo5cb
 	specularmap textures/castle_wood/cwood_mo5cb_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_wood/cwood_mo5cb
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/castle_wood/cwood_mo6
@@ -60,4 +85,9 @@ textures/castle_wood/cwood_mo6
 	specularmap textures/castle_wood/cwood_mo6_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_wood/cwood_mo6
+	  VertexColor
+	blend blend
+	}
 }
