@@ -10,6 +10,11 @@ textures/chateau/desk_c03
 	specularmap textures/chateau/desk_c03_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/desk_c03
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/desk_c04
@@ -20,6 +25,11 @@ textures/chateau/desk_c04
 	specularmap textures/chateau/desk_c04_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/desk_c04
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/door_c01
@@ -30,6 +40,11 @@ textures/chateau/door_c01
 	specularmap textures/chateau/door_c01_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/door_c01
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/fireplace_01
@@ -40,6 +55,11 @@ textures/chateau/fireplace_01
 	specularmap textures/chateau/fireplace_01_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/fireplace_01
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/floor_c04
@@ -50,6 +70,11 @@ textures/chateau/floor_c04
 	specularmap textures/chateau/floor_c04_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/floor_c04
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/floor_c05
@@ -60,6 +85,11 @@ textures/chateau/floor_c05
 	specularmap textures/chateau/floor_c05_S
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/floor_c05
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/floor_c06
@@ -70,6 +100,11 @@ textures/chateau/floor_c06
 	specularmap textures/chateau/floor_c06_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/floor_c06
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/floor_c10
@@ -80,6 +115,11 @@ textures/chateau/floor_c10
 	specularmap textures/chateau/floor_c10_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chateau/floor_c10
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/floor_c10a
@@ -90,6 +130,11 @@ textures/chateau/floor_c10a
 	specularmap textures/chateau/floor_c10a_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chateau/floor_c10a
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/pillar_temp_rf
@@ -100,6 +145,11 @@ textures/chateau/pillar_temp_rf
 	specularmap textures/chateau/pillar_temp_rf_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/pillar_temp_rf
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/stair_c01
@@ -110,6 +160,11 @@ textures/chateau/stair_c01
 	specularmap textures/chateau/stair_c01_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/stair_c01
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/stair_c03
@@ -120,6 +175,12 @@ textures/chateau/stair_c03
 	specularmap textures/chateau/stair_c03_s
 	surfaceparm carpetsteps
 	implicitMap -
+	{
+	  map textures/chateau/stair_c03
+	  VertexColor
+	blend blend
+	}
+	
 }
 
 textures/chateau/trim_c01
@@ -130,6 +191,11 @@ textures/chateau/trim_c01
 	specularmap textures/chateau/trim_c01_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/trim_c01
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/trim_c03
@@ -140,6 +206,11 @@ textures/chateau/trim_c03
 	specularmap textures/chateau/trim_c03_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/trim_c03
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/trim_c08
@@ -150,6 +221,11 @@ textures/chateau/trim_c08
 	specularmap textures/chateau/trim_c08_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/trim_c08
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/trim_c09
@@ -160,6 +236,11 @@ textures/chateau/trim_c09
 	specularmap textures/chateau/trim_c09_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/trim_c09
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/trim_c10
@@ -170,6 +251,11 @@ textures/chateau/trim_c10
 	specularmap textures/chateau/trim_c10_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/trim_c10
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/trim_c14
@@ -180,6 +266,11 @@ textures/chateau/trim_c14
 	specularmap textures/chateau/trim_c14_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/trim_c14
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/walltest_c07a_vertex
@@ -359,6 +450,11 @@ textures/chateau/wood_c05
 	specularmap textures/chateau/wood_c05_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/wood_c05
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/wood_c06
@@ -369,6 +465,11 @@ textures/chateau/wood_c06
 	specularmap textures/chateau/wood_c06_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/wood_c06
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/wood_c07
@@ -379,6 +480,11 @@ textures/chateau/wood_c07
 	specularmap textures/chateau/wood_c07_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/wood_c07
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/wood_c09
@@ -389,6 +495,11 @@ textures/chateau/wood_c09
 	specularmap textures/chateau/wood_c09_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/wood_c09
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/wood_c20
@@ -399,6 +510,11 @@ textures/chateau/wood_c20
 	specularmap textures/chateau/wood_c20_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/wood_c20
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chateau/wood_test
@@ -409,4 +525,9 @@ textures/chateau/wood_test
 	specularmap textures/chateau/wood_test_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chateau/wood_test
+	  VertexColor
+	blend blend
+	}
 }
