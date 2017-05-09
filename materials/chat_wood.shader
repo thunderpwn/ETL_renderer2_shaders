@@ -10,6 +10,11 @@ textures/chat_wood/chwood_c02
 	specularmap textures/chat_wood/chwood_c02_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat_wood/chwood_c02
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/chat_wood/chwood_c04
@@ -19,4 +24,9 @@ textures/chat_wood/chwood_c04
 	specularmap textures/chat_wood/chwood_c04_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/chat_wood/chwood_c04
+	  VertexColor
+	blend blend
+	}
 }
