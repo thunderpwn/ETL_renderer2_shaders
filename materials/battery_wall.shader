@@ -7,7 +7,12 @@ textures/battery_wall/metal_trim1
 	bumpmap textures/battery_wall/metal_trim1_n
 	specularmap textures/battery_wall/metal_trim1_s
 	surfaceparm metalsteps
-	implicitMap -
+	implicitmap textures/battery_wall/metal_trim1
+	{
+	  map textures/battery_wall/metal_trim1
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/battery_wall/wall01_mid
@@ -16,7 +21,12 @@ textures/battery_wall/wall01_mid
 	diffusemap textures/battery_wall/wall01_mid
 	bumpmap textures/battery_wall/wall01_mid_n
 	specularmap textures/battery_wall/wall01_mid_s
-	implicitmap -
+	implicitmap textures/battery_wall/wall01_mid
+	{
+	  map textures/battery_wall/wall01_mid
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/battery_wall/wall01_top
@@ -25,7 +35,12 @@ textures/battery_wall/wall01_top
 	diffusemap textures/battery_wall/wall01_top
 	bumpmap textures/battery_wall/wall01_top_n
 	specularmap textures/battery_wall/wall01_top_s
-	implicitmap -
+	implicitmap textures/battery_wall/wall01_top
+	{
+	map textures/battery_wall/wall01_top
+	VertexColor
+	blend blend
+	}
 }
 
 textures/battery_wall/wall01_trench
@@ -34,7 +49,12 @@ textures/battery_wall/wall01_trench
 	diffusemap textures/battery_wall/wall01_trench
 	bumpmap textures/battery_wall/wall01_trench_n
 	specularmap textures/battery_wall/wall01_trench_s
-	implicitmap -
+	implicitmap textures/battery_wall/wall01_trench
+	{
+	  map textures/battery_wall/wall01_trench
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall02_bot
@@ -44,6 +64,11 @@ textures/battery_wall/wall02_bot
 	bumpmap textures/battery_wall/wall02_bot_n
 	specularmap textures/battery_wall/wall02_bot_s
 	implicitmap -
+	{
+	  map textures/battery_wall/wall02_bot
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall02_mid
@@ -53,6 +78,11 @@ textures/battery_wall/wall02_mid
 	bumpmap textures/battery_wall/wall02_mid_n
 	specularmap textures/battery_wall/wall02_mid_s
 	implicitmap -
+	{
+	  map textures/battery_wall/wall02_mid
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall02_top
@@ -62,6 +92,11 @@ textures/battery_wall/wall02_top
 	bumpmap textures/battery_wall/wall02_top_n
 	specularmap textures/battery_wall/wall02_top_s
 	implicitmap -
+	{
+	  map textures/battery_wall/wall02_top
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall03_bot
@@ -70,7 +105,12 @@ textures/battery_wall/wall03_bot
 	diffusemap textures/battery_wall/wall03_bot
 	bumpmap textures/battery_wall/wall03_bot_n
 	specularmap textures/battery_wall/wall03_bot_s
-	implicitmap -
+	implicitmap textures/battery_wall/wall03_bot
+	{
+	  map textures/battery_wall/wall03_bot
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall03_mid
@@ -79,7 +119,12 @@ textures/battery_wall/wall03_mid
 	diffusemap textures/battery_wall/wall03_mid
 	bumpmap textures/battery_wall/wall03_mid_n
 	specularmap textures/battery_wall/wall03_mid_s
-	implicitmap -
+	implicitmap textures/battery_wall/wall03_mid
+	{
+	  map textures/battery_wall/wall03_mid
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall03_top
@@ -89,6 +134,11 @@ textures/battery_wall/wall03_top
 	bumpmap textures/battery_wall/wall03_top_n
 	specularmap textures/battery_wall/wall03_top_s
 	implicitmap -
+	{
+	  map textures/battery_wall/wall03_top
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall03_trench
@@ -98,6 +148,11 @@ textures/battery_wall/wall03_trench
 	bumpmap textures/battery_wall/wall03_trench_n
 	specularmap textures/battery_wall/wall03_trench_s
 	implicitmap -
+	{
+	  map textures/battery_wall/wall03_trench
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/battery_wall/wall04_mid
@@ -107,5 +162,10 @@ textures/battery_wall/wall04_mid
 	bumpmap textures/battery_wall/wall04_mid_n
 	specularmap textures/battery_wall/wall04_mid_s
 	implicitmap -
+	{
+	  map textures/battery_wall/wall04_mid
+	  VertexColor
+	  blend blend
+	}
 }
 
