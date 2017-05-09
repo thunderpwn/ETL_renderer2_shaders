@@ -6,20 +6,20 @@ textures/bunker_sd/extwall01_sand
 {
 	q3map_nonplanar
 	q3map_shadeangle 180
-	implicitMap -
+	
 }
 
 textures/bunker_sd/extwall02_sand
 {
 	q3map_nonplanar
 	q3map_shadeangle 180
-	implicitMap -
+	
 }
 
 textures/bunker_sd/girder01
 {
 	surfaceparm metalsteps
-	implicitMap -
+	
 }
 
 textures/bunker_sd/girder02
@@ -29,7 +29,12 @@ textures/bunker_sd/girder02
 	specularmap textures/bunker_sd/girder02_s
 	bumpmap textures/bunker_sd/girder02_n
 	surfaceparm metalsteps
-	implicitMap -
+	{
+	  map textures/bunker_sd/girder02
+	  VertexColor
+	blend blend
+	}
+	
 }
 
 textures/bunker_sd/girder03
@@ -39,14 +44,24 @@ textures/bunker_sd/girder03
 	bumpmap textures/bunker_sd/girder03_n
 	specularmap textures/bunker_sd/girder03_s
 	surfaceparm metalsteps
-	implicitMap -
+	{
+	  map textures/bunker_sd/girder03
+	  VertexColor
+	blend blend
+	}
+	
 }
 
 textures/bunker_sd/tinroof01
+
 {
 	q3map_nonplanar
 	q3map_shadeangle 180
-	implicitMap -
+	{
+	  map textures/bunker_sd/tinroof01
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/bunker_sd/wirefence01
@@ -58,7 +73,7 @@ textures/bunker_sd/wirefence01
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-	implicitMask -
+	
 }
 
 textures/bunker_sd/concrete_c07bcmp_sand
@@ -67,7 +82,12 @@ textures/bunker_sd/concrete_c07bcmp_sand
 	diffusemap textures/bunker_sd/concrete_c07bcmp_sand
 	bumpmap textures/bunker_sd/concrete_c07bcmp_sand_n
 	specularmap textures/bunker_sd/concrete_c07bcmp_sand_s
-	implicitmap -
+	
+	{
+	  map textures/bunker_sd/concrete_c07bcmp_sand
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/bunker_sd/int_wall01
@@ -76,7 +96,12 @@ textures/bunker_sd/int_wall01
 	diffusemap textures/bunker_sd/int_wall01
 	bumpmap textures/bunker_sd/int_wall01_n
 	specularmap textures/bunker_sd/int_wall01_s
-	implicitmap -
+	
+	{
+	  map textures/bunker_sd/int_wall01
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/bunker_sd/int_wall01_rusty
@@ -85,7 +110,12 @@ textures/bunker_sd/int_wall01_rusty
 	diffusemap textures/bunker_sd/int_wall01_rusty
 	bumpmap textures/bunker_sd/int_wall01_rusty_n
 	specularmap textures/bunker_sd/int_wall01_rusty_s
-	implicitmap -
+	
+	{
+	  map textures/bunker_sd/int_wall01_rusty
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/bunker_sd/int_wall01_white
@@ -94,7 +124,11 @@ textures/bunker_sd/int_wall01_white
 	diffusemap textures/bunker_sd/int_wall01_white
 	bumpmap textures/bunker_sd/int_wall01_white_n
 	specularmap textures/bunker_sd/int_wall01_white_s
-	implicitmap -
+	{
+	  map textures/bunker_sd/int_wall01_white
+	  VertexColor
+	  blend blend
+	}
 }
 
 textures/bunker_sd/int_wall07
@@ -103,6 +137,10 @@ textures/bunker_sd/int_wall07
 	diffusemap textures/bunker_sd/int_wall07
 	bumpmap textures/bunker_sd/int_wall07_n
 	specularmap textures/bunker_sd/int_wall07_s
-	implicitmap -
+	{
+	  map textures/bunker_sd/int_wall07
+	  VertexColor
+	  blend blend
+	}
 }
 

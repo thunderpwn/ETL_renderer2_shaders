@@ -8,6 +8,11 @@ textures/castle_door/door_c17
 	specularmap textures/castle_door/door_c17_s
 	surfaceparm woodsteps
 	implicitMap -
+	{
+	  map textures/castle_door/door_c17
+	  VertexColor
+	blend blend
+	}
 }
 
 textures/castle_door/door_m01
